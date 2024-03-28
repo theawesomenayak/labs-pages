@@ -13,7 +13,7 @@ image::https://avatars.githubusercontent.com/u/132277850?v=4[width=400]
 https://github.com/langchain4j[Langchain4j^] is a Java implementation of the langchain library.
 It uses similar concepts, with Prompts, Chains, Transformers, Document Loaders, Agents, and more.
 
-The Neo4j Integration makes the xref:vector-search.adoc[Neo4j Vector] index available in the Langchain4j library.
+The Neo4j Integration makes the xref:vector-search.adoc[Neo4j Vector] index and Neo4J Graph Content Retriever available in the Langchain4j library.
 
 // https://github.com/langchain4j/langchain4j/tree/main/langchain4j-neo4j
 
@@ -30,6 +30,8 @@ include::https://github.com/langchain4j/langchain4j-examples/raw/main/neo4j-exam
 * Create vector index
 * Populate nodes and vector index from documents
 * Query vector index
+* Graph Connector
+* Graph Content Retriever
 
 == Documentation
 
